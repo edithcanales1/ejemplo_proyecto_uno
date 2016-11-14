@@ -1,0 +1,98 @@
+
+<!-- etiqueta -->
+<etiqueta></etiqueta>
+
+<!-- etiqueta#identidad -->
+<etiqueta id="identidad"></etiqueta>
+
+
+<!-- etiqueta.unaclase.otraclase.unaclasemas -->
+<etiqueta class="unaclase otraclase unaclasemas"></etiqueta>
+
+
+<!-- etiqueta#identidad.clase -->
+<etiqueta id="identidad" class="clase"></etiqueta>
+
+
+<!-- etiqueta[atributo1=unvalor][atributo2=otrovalor] -->
+<etiqueta atributo1="unvalor" atributo2="otrovalor"></etiqueta>
+
+
+<!-- h1{Titulo} -->
+<h1>Titulo</h1>
+
+<!-- h1{Titulo}+img+p{el texto de un parrafo} -->
+<h1>Titulo</h1>
+<img src="" alt="">
+<p>el texto de un parrafo</p>
+
+
+<!-- ul>li>a{un texto} -->
+<ul>
+  <li><a href="">un texto</a></li>
+</ul>
+
+
+
+
+<!-- ul.clasedelista>li.clasedeelemto>a.clasedelink[href=google.com]{untexto} -->
+<ul class="clasedelista">
+  <li class="clasedeelemto">
+    <a href="google.com" class="clasedelink">
+      untexto
+    </a>
+  </li>
+</ul>
+
+
+<!-- ul>li{elemento numero $}*5 -->
+<ul>
+  <li>elemento numero 1</li>
+  <li>elemento numero 2</li>
+  <li>elemento numero 3</li>
+  <li>elemento numero 4</li>
+  <li>elemento numero 5</li>
+</ul>
+
+
+<!-- ul>(li>a{palabra $})*4 -->
+<ul>
+  <li><a href="">palabra 1</a></li>
+  <li><a href="">palabra 2</a></li>
+  <li><a href="">palabra 3</a></li>
+  <li><a href="">palabra 4</a></li>
+</ul>
+
+
+
+
+<!-- (a>h1{Titulo})+a>img -->
+<a href="">
+  <h1>Titulo</h1>
+</a><a href=""><img src="" alt=""></a>
+
+<!-- escalar un nivel -->
+<!-- a>h1{Titulo}^+a>img -->
+<a href="">
+  <h1>Titulo</h1>
+</a><a href=""><img src="" alt=""></a>
+
+
+
+<!-- generando textos falsos -->
+
+<!-- (p>lorem16)*3 -->
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis at cumque, obcaecati numquam odit est reiciendis!</p>
+<p>Minus aspernatur, est reiciendis laborum corporis fuga, distinctio provident tempora laboriosam ad perferendis voluptatibus quia quod?</p>
+<p>Quaerat, quos eligendi totam eveniet consequatur praesentium dolorum voluptate enim cupiditate eum fuga, adipisci distinctio repudiandae?</p>
+
+
+
+<!-- generando imagenes falsas -->
+
+<!-- img[http://fakeimg.pl/400x300] -->
+<img src="http://fakeimg.pl/400x300" alt="">
+
+
+<!-- usando colores & texto -->
+<img src="http://fakeimg.pl/400x300/fa00fa/ffaa00?text=Un%20texto" alt="">

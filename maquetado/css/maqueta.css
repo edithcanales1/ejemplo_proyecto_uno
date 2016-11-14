@@ -1,0 +1,40 @@
+/**{ outline: 1px solid #def; } desactivada quita las guías*/
+*{ outline: 1px solid #def; }
+
+img{
+  max-width: 100%;
+}
+
+/*Entradas en INICIO*/
+
+html,body
+  height: 100%;
+}
+
+.scroll-h {
+  overflow-y:auto;
+}
+
+
+.font-s{
+  font-size: 11px
+}
+
+.font-m{
+  font-size: 12px
+}
+
+.font-lg{
+  font-size: 14px
+}
+
+.font-xl{
+  font-size: 19px
+}
+
+
+
+
+#imagen-portada article {
+  height: 50vh;
+}
